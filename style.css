@@ -69,3 +69,33 @@ ul {
   height: 100px;
   display: inline-block;
 }
+
+.body-container{
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.main-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.main-container main{
+  display: flex;
+  flex:1;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0.3
+
+}
+
+.body-container header{
+  align-self: center;
+}
+.body-container footer{
+  align-self: flex-start;
+}
